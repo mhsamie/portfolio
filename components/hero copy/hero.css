@@ -1,0 +1,101 @@
+.hero {
+  /* width: 100vw; */
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  position: relative;
+}
+
+.hero .wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+}
+@media (max-width: 1440px) {
+  .hero .wrapper {
+    max-width: 95%;
+  }
+}
+.hero .textContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero .textContainer {
+    height: 50%;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.hero .textContainer h2 {
+  font-size: 38px;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.hero .textContainer h1 {
+  font-size: 88px;
+}
+
+@media (max-width: 768px) {
+  .hero .textContainer h1 {
+    font-size: 36px;
+  }
+}
+
+.hero .textContainer .buttons button {
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer !important;
+  font-weight: 300;
+}
+
+.hero .textContainer img {
+  width: 50px;
+}
+
+.hero .imageContainer {
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+@media (max-width: 768px) {
+  .hero .imageContainer {
+    height: 50%;
+    width: 100%;
+    top: unset;
+    bottom: 0;
+  }
+}
+
+.hero .imageContainer img {
+  z-index: 10000;
+  left: 50px;
+  width: 100%;
+  height: 70%;
+
+  object-fit: cover;
+}
+
+.hero .slidingTextContainer {
+  position: absolute;
+  font-size: 50vh;
+  bottom: -120px;
+  white-space: nowrap;
+  color: #ffffff1c;
+  width: 50%;
+  font-weight: bold;
+}
