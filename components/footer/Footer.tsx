@@ -25,7 +25,7 @@ const Footer = () => {
       </Link>
       <div className="flex gap-2 items-center">
         {socilaMedia.map((s) => (
-          <Link href={s.link}>
+          <Link key={s.link} href={s.link}>
             <Image
               src={`/${s.title}.svg`}
               alt={s.title}

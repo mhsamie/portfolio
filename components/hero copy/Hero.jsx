@@ -71,7 +71,10 @@ const Hero = () => {
           />
         </motion.div>
         <div className="flex justify-center items-center lg:hidden">
-          <img
+          <Image
+            width={100}
+            height={100}
+            unoptimized
             src="/me.jpeg"
             alt=""
             className="rounded-full w-72 h-72 md:w-96 md:h-96 "

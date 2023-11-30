@@ -1,10 +1,10 @@
 "use client";
 
-import { usePathname } from "next-intl/client";
-import { Link } from "next-intl";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import ArrowDown from "@/public/images/icons/svg/ArrowDown";
+import ArrowDown from "@/public/ArrowDown";
 
 export default function LocaleSwitcher() {
   const path = usePathname();
