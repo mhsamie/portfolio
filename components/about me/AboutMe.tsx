@@ -85,7 +85,7 @@ const AboutMe = () => {
     },
   ];
   return (
-    <div className=" p-5 w-full max-w-[1366px] my-20 text-white">
+    <div id="about" className=" p-5 w-full max-w-[1366px] my-20 text-white">
       <div className="my-10">
         <span className="lg:px-8 p-5 text-xl text-center lg:text-start max-w-[1366px] xl:px-0 w-full lg:text-5xl font-black text-white mt-10 mb-5 lg:mt-20">
           WHO AM I

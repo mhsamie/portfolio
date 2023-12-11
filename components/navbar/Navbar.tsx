@@ -18,6 +18,10 @@ export const pages: page[] = [
     label: "Blog",
   },
   {
+    path: "/#about",
+    label: "About ME",
+  },
+  {
     path: "/#projects",
     label: "projects",
   },
