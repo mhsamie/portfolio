@@ -39,7 +39,7 @@ const ProjectCard = ({
             height={1000}
             quality={100}
             objectFit="cover"
-            className="w-full h-[220px] "
+            className="w-full h-[220px] aspect-square"
           />
         </div>
       </div>

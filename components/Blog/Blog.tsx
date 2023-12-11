@@ -5,6 +5,12 @@ import Link from "next/link";
 const Blog = () => {
   const AllArticles = [
     {
+      link: "https://medium.com/@samiefatemeh99/seo-optimization-why-you-should-optimize-web-vitals-and-lighthouse-scores-for-your-websites-0c66c304c8fd",
+      title:
+        "SEO OPTIMIZATION: Why You Should Optimize Web Vitals and Lighthouse Scores for Your Websites",
+      desc: "In today’s digital age, having a strong online presence is crucial for businesses and individuals alike. Whether you are selling products...",
+    },
+    {
       link: "https://medium.com/@samiefatemeh99/alpine-js-a-lightweight-framework-for-big-projects-or-simple-tasks-830aefd88f93",
       title:
         "Alpine.js: A Lightweight Framework for Big Projects or Simple Tasks?",
