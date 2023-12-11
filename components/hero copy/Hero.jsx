@@ -56,13 +56,15 @@ const Hero = () => {
             Front-end developer
           </motion.h2>
           <motion.span variants={textVariants} className="text-gray-400">
-            Love to bring new ideas into the world .
+            A 2 years experienced front-end developer, Crafting seamless web
+            experiences to bring new ideas into the real world with the focus on
+            React.js and Next.js functionality.
           </motion.span>
-          <motion.div variants={textVariants} className="buttons ">
+          {/* <motion.div variants={textVariants} className="buttons ">
             <motion.button className="cursor-pointer" variants={textVariants}>
               See the Latest Works
             </motion.button>
-          </motion.div>
+          </motion.div> */}
           <motion.img
             variants={textVariants}
             animate="scrollButton"
