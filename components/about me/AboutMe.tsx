@@ -3,84 +3,85 @@ import Image from "next/image";
 const AboutMe = () => {
   const imageURLs = [
     {
-      href: "https://babeljs.io/",
-      src: "https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg",
-      alt: "babel",
-    },
-    {
       href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-      alt: "javascript",
-    },
-    {
-      href: "https://getbootstrap.com",
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
-      alt: "bootstrap",
-    },
-    {
-      href: "https://www.w3schools.com/css/",
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
-      alt: "css3",
-    },
-    {
-      href: "https://www.figma.com/",
-      src: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
-      alt: "figma",
-    },
-    {
-      href: "https://git-scm.com/",
-      src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
-      alt: "git",
-    },
-    {
-      href: "https://www.w3.org/html/",
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
-      alt: "html5",
-    },
-    {
-      href: "https://www.invisionapp.com/",
-      src: "https://www.vectorlogo.zone/logos/invisionapp/invisionapp-icon.svg",
-      alt: "invision",
-    },
-    {
-      href: "https://www.mongodb.com/",
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      alt: "mongodb",
-    },
-    {
-      href: "https://nextjs.org/",
-      src: "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg",
-      alt: "nextjs",
-    },
-    {
-      href: "https://reactjs.org/",
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
-      alt: "react",
-    },
-    {
-      href: "https://redux.js.org",
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
-      alt: "redux",
-    },
-    {
-      href: "https://tailwindcss.com/",
-      src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
-      alt: "tailwind",
+      alt: "JavaScript",
     },
     {
       href: "https://www.typescriptlang.org/",
       src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-      alt: "typescript",
+      alt: "TypeScript",
+    },
+
+    {
+      href: "https://nextjs.org/",
+      src: "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg",
+      alt: "Next",
+    },
+    {
+      href: "https://reactjs.org/",
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+      alt: "React",
+    },
+    {
+      href: "https://www.figma.com/",
+      src: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+      alt: "Figma",
+    },
+    {
+      href: "https://git-scm.com/",
+      src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+      alt: "GIT",
+    },
+    {
+      href: "https://www.w3.org/html/",
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+      alt: "HTML",
+    },
+    {
+      href: "https://www.w3schools.com/css/",
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+      alt: "CSS",
+    },
+    {
+      href: "https://tailwindcss.com/",
+      src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      alt: "Tailwind",
+    },
+    {
+      href: "https://www.invisionapp.com/",
+      src: "https://www.vectorlogo.zone/logos/invisionapp/invisionapp-icon.svg",
+      alt: "Invision",
+    },
+    {
+      href: "https://getbootstrap.com",
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+      alt: "Bootstrap",
+    },
+    {
+      href: "https://www.mongodb.com/",
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      alt: "Mongodb",
+    },
+    {
+      href: "https://redux.js.org",
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+      alt: "Redux",
     },
     {
       href: "https://webpack.js.org",
       src: "https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg",
-      alt: "webpack",
+      alt: "Webpack",
     },
     {
       href: "https://www.adobe.com/products/xd.html",
       src: "https://cdn.worldvectorlogo.com/logos/adobe-xd.svg",
-      alt: "xd",
+      alt: "XD",
+    },
+    {
+      href: "https://babeljs.io/",
+      src: "https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg",
+      alt: "Babel",
     },
   ];
   return (
@@ -164,7 +165,7 @@ const AboutMe = () => {
             {imageURLs.map((items) => (
               <a
                 key={items.alt}
-                className=" border  items-center bg-zinc-600  border-gray-800 shadow-xl px-4 py-[6px] rounded-full flex gap-2"
+                className=" border hover:bg-zinc-600 items-center bg-zinc-700  border-gray-800 shadow-xl p-2 rounded-full flex "
                 href={items.href}
                 target="_blank"
                 rel="noreferrer"
@@ -173,10 +174,10 @@ const AboutMe = () => {
                   src={items.src}
                   className=" rounded"
                   alt={items.alt}
-                  width="28"
-                  height="28"
+                  width="24"
+                  height="24"
                 />
-                <span className="text-sm block text-center w-full text-gray-200">
+                <span className="text-sm block text-center w-full text-gray-200 font-medium">
                   {items.alt}
                 </span>
               </a>
