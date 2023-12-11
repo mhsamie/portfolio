@@ -38,7 +38,7 @@ const Projects = () => {
           discription="Tutifu is a educational website which teacher and student can book an online session to learn and master any subject they offer. In tutify there is multiple subjects to learn and there is varoius filleds to teach and earn money."
         />
         <ProjectCard
-          src="/lifecycle.gif"
+          src="/lifecycle.png"
           alt="lifecycle"
           title="LifeCycle"
           discription="Lyfecycle is a gym and exercise company website. Lyfecycle is great for any fitness level. Our great community
