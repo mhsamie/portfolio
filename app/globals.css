@@ -21,3 +21,29 @@
 * {
   box-sizing: border-box;
 }
+.neon-red {
+  color: #ffaeae;
+  text-shadow: 0 0 5px #aa2828, 0 0 10px #aa2828, 0 0 20px #aa2828,
+    0 0 40px rgb(177, 0, 0), 0 0 100px rgb(177, 0, 0), 0 0 110px rgb(177, 0, 0),
+    0 0 100px rgb(177, 0, 0), 0 0 150px rgb(177, 0, 0);
+}
+
+.neon-white {
+  color: #fff;
+  text-shadow: 0 0 5px #ffffffc4, 0 0 10px #ffffffc4, 0 0 20px rgb(0, 92, 92),
+    0 0 40px rgb(0, 92, 92), 0 0 100px rgb(0, 92, 92), 0 0 110px rgb(0, 92, 92),
+    0 0 100px rgb(0, 92, 92), 0 0 150px rgb(0, 92, 92);
+}
+.neon-purp {
+  color: #dfa7ff;
+  text-shadow: 0 0 5px #7628aa, 0 0 10px rgb(140, 0, 255),
+    0 0 20px rgb(140, 0, 255), 0 0 40px rgb(111, 0, 255),
+    0 0 100px rgb(140, 0, 255), 0 0 110px rgb(140, 0, 255),
+    0 0 100px rgb(140, 0, 255), 0 0 150px rgb(140, 0, 255);
+}
+.neon-green {
+  color: #f6ffa1;
+  text-shadow: 0 0 5px #fbff00, 0 0 10px #fbff00, 0 0 20px #fbff00,
+    0 0 40px #ffa600, 0 0 100px #fbff00, 0 0 110px #fbff00, 0 0 100px #fbff00,
+    0 0 150px #fbff00;
+}
