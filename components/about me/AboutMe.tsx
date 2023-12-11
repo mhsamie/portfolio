@@ -93,33 +93,43 @@ const AboutMe = () => {
       <div className="w-full flex flex-col lg:grid grid-flow-col  lg:grid-rows-2 lg:grid-cols-3 gap-4 gap-y-2">
         <div className="p-5 py-8 pr-8 flex justify-center w-full h-full items-center lg:row-span-2 col-span-1 text-justify  lg:col-span-2 bg-slate-600 bg-opacity-20 rounded-2xl ">
           <div className=" flex gap-4 flex-col">
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-red">&lt;!DOCTYPE html&gt; </span>
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-red pl-6">
               &lt;html lang="en"&gt;
             </span>
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-white pl-9">
               {" "}
               &lt;meta charset="UTF-8"&gt;
             </span>
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-green pl-10">
               &lt;title&gt;About Me &lt;/title&gt;
             </span>{" "}
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-white pl-12">
               &lt;meta name="viewport"
               content="width=device-width,initial-scale=1"&gt;
             </span>
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-purp pl-16">
               {" "}
               &lt;link rel="stylesheet" href="./me.css"&gt;
             </span>
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-red pl-24">&lt;body&gt;</span>
             <span>
+              {/* eslint-disable react/no-unescaped-entities */}
               <span className="text-sm neon-white pl-24 pr-2">
                 &lt;h1 class="text-xl font-bold"&gt;
               </span>
               <span className="text-xl font-bold">About ME</span>
+              {/* eslint-disable react/no-unescaped-entities */}
               <span className="text-sm neon-white pl-2">&lt;/h1&gt;</span>
             </span>
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-red pl-24">
               &lt;p class=" text-sm lg:text-base font-medium leading-[32px]"&gt;
             </span>
@@ -136,13 +146,15 @@ const AboutMe = () => {
               doing, and I am constantly working on new projects to challenge
               myself and expand my knowledge.
             </p>{" "}
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-red pl-24">&lt;/p&gt;</span>{" "}
-            <span></span>
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-white pl-20">
-              {" "}
               &lt;script src="nextJsPortfolio.js"&gt; &lt;/script&gt;
             </span>{" "}
+            {/* eslint-disable react/no-unescaped-entities */}
             <span className="text-sm neon-red pl-12">&lt;/body&gt;</span>
+            {/* eslint-disable react/no-unescaped-entities */}
             <div className="text-sm neon-red pl-0">&lt;/html&gt;</div>
           </div>
         </div>
