@@ -27,10 +27,10 @@ const Projects = () => {
   };
   return (
     <div id="projects">
-      <motion.div className="lg:px-5 text-xl text-center lg:text-start max-w-[1366px] xl:px-0 w-full lg:text-5xl font-black text-white mt-10 mb-5 lg:mt-20">
+      <motion.div className="lg:px-5 text-xl text-center lg:text-start max-w-[1366px] xl:px-0 w-full lg:text-5xl font-black text-white my-10 lg:mt-20">
         <span>See The Latest Work</span>
       </motion.div>
-      <div className="my-10 lg:px-5 xl:px-0 w-full xl:justify-center max-w-[1366px]  flex flex-col gap-10">
+      <div className="my-15 lg:px-5 xl:px-0 w-full xl:justify-center max-w-[1366px]  flex flex-col gap-10">
         <ProjectCard
           src="/tutify.png"
           alt="tutify"

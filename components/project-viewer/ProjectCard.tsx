@@ -43,11 +43,11 @@ const ProjectCard = ({
           />
         </div>
       </div>
-      <div className="md:w-[420px] lg:w-full">
-        <div className="font-bold text-lg text-center  lg:text-start ">
+      <div className="md:w-[420px] lg:w-full flex flex-col gap-4">
+        <div className="uppercase font-bold text-lg lg:text-xl text-center  lg:text-start ">
           <span>{title}</span>
         </div>
-        <div className=" text-center lg:text-start">
+        <div className=" text-center leading-[28px] lg:text-justify">
           <span>{discription}</span>
         </div>
       </div>
